@@ -151,7 +151,7 @@ h2 {
 
 #work {
     background-attachment: fixed;
-    background-image: url('../images/desk.jpg');
+    background-image: url('../images/colisseum.jpg');
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -356,12 +356,36 @@ h2 {
     padding-top: 1px;
     padding-left: 13px;
 }
+/*-------CAROUSEL-----------*/
 
+#myCarousel {
+    width: 100%;
+}
+.carousel-control {
+    margin-top: 20px;
+}
+.carousel-inner .item {
+    width: 100%;
+    height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.ad1 {
+    background: url('../images/Residence1.jpg') no-repeat center center fixed;
+}
+.ad2 {
+    background: url('../images/Residence2.jpg') no-repeat center center fixed;
+}
+.ad3 {
+    background: url('../images/Residence3.jpg') no-repeat center center fixed;
+}
 /*-------CONTACT-----------*/
 
 #contact {
     background-attachment: fixed;
-    background-image: url('../images/computer.jpg');
+    background-image: url('../images/contact.jpg');
     background-position: left;
     background-size: cover;
     padding-bottom: 100px;
@@ -472,13 +496,12 @@ a.privacy-policy:hover {
 
 @media (min-width: 992px) {
     #about-me {
-        background-image: url('../images/1.jpg');
+        background-image: url('../images/vatican.jpg');
         background-position: center;
         background-size: cover;
         width: 100vw;
     }
     #skills {
-        background-image: url('../images/skills.jpg');
         background-position: center;
         background-size: cover;
         width: 100vw;
