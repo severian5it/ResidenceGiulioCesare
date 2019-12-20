@@ -127,6 +127,17 @@ h1 {
 
 /*------------ABOUT----------*/
 
+#about-me {
+    background-attachment: fixed;
+    background-image: url('../images/vatican.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
 .about-row {
     padding-bottom: 10%;
     font-size: 1.75em;
@@ -155,6 +166,7 @@ h2 {
     background-position: center;
     background-size: cover;
     width: 100vw;
+    height: 100vh;
     padding-bottom: 50px;
     background-repeat: no-repeat;
     position: relative;
@@ -184,7 +196,7 @@ h2 {
     width: 18em;
     height: 18em;
     top: 50%;
-    left: 50%;
+    left: 10%;
     margin: 15% auto;
     padding: 15px;
     align-items: center;
@@ -236,6 +248,7 @@ h2 {
 
 .skills {
     position: relative;
+    height: 100vh;
     top: 12%;
     padding-bottom: 96px;
 }
@@ -381,7 +394,7 @@ h2 {
 }
 .carousel-inner .item {
     width: 100%;
-    height: 400px;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -393,6 +406,7 @@ h2 {
     background-position: center;
     background-size: cover;
     width: 100vw;
+    height: 100vh;
     padding-bottom: 50px;
     background-repeat: no-repeat;
     position: relative;
@@ -405,6 +419,7 @@ h2 {
     background-position: center;
     background-size: cover;
     width: 100vw;
+    height: 100vh;
     padding-bottom: 50px;
     background-repeat: no-repeat;
     position: relative;
@@ -416,6 +431,7 @@ h2 {
     background-position: center;
     background-size: cover;
     width: 100vw;
+    height: 100vh;
     padding-bottom: 50px;
     background-repeat: no-repeat;
     position: relative;
@@ -426,6 +442,8 @@ h2 {
 #contact {
     background-attachment: fixed;
     background-image: url('../images/contact.jpg');
+    width: 100vw;
+    height: 100vh;
     background-position: left;
     background-size: cover;
     padding-bottom: 100px;
@@ -455,7 +473,7 @@ footer {
 }
 
 .foot {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 a {
@@ -536,7 +554,6 @@ a.privacy-policy:hover {
 
 @media (min-width: 992px) {
     #about-me {
-        background-image: url('../images/vatican.jpg');
         background-position: center;
         background-size: cover;
         width: 100vw;
