@@ -127,7 +127,7 @@ h1 {
 
 /*------------ABOUT----------*/
 
-#about-me {
+#about-residence {
     background-attachment: fixed;
     background-image: url('../images/vatican.jpg');
     background-position: bottom;
@@ -160,7 +160,7 @@ h2 {
 
 /*------------WORK----------*/
 
-#work {
+#where {
     background-attachment: fixed;
     background-image: url('../images/colisseum.jpg');
     background-position: center;
@@ -386,7 +386,7 @@ h2 {
     }
 }
 
-#myCarousel {
+#roomCarousel {
     width: 100%;
 }
 .carousel-control {
@@ -449,7 +449,7 @@ h2 {
     padding-bottom: 100px;
     padding-top: 42px;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .contact-form {
@@ -553,7 +553,7 @@ a.privacy-policy:hover {
 }
 
 @media (min-width: 992px) {
-    #about-me {
+    #about-residence {
         background-position: center;
         background-size: cover;
         width: 100vw;
