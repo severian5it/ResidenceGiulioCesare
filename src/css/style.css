@@ -152,7 +152,7 @@ h2 {
     color: #112739;
 }
 
-/*------------WORK----------*/
+/*------------Where----------*/
 
 #where {
 
@@ -165,6 +165,17 @@ h2 {
     font-weight: 300;
     margin-bottom: 0px;
 }
+
+
+#where address {
+    line-height: 3rem;
+}
+
+#where iframe {
+    width: 90%;
+    height: 100%;
+}
+
 
 .card-body .row {
     text-align: center;
@@ -235,6 +246,7 @@ h2 {
     height: 54px;
     line-height: 14px;
 }
+
 
 /*--------SKILLS-----------*/
 
@@ -378,8 +390,7 @@ h2 {
 #contact {
     background-attachment: fixed;
     background-image: url('../images/contact.jpg');
-    width: 100vw;
-    height: 100vh;
+
     background-position: left;
     background-size: cover;
     padding-bottom: 100px;
@@ -395,6 +406,7 @@ h2 {
 
 #contact-head {
     margin: 30px -11px 25px 0px;
+    color: white
 }
 
 .contact {
@@ -483,7 +495,7 @@ a.privacy-policy:hover {
 }
 
 @media (max-width: 992px) {
-    #contact, #work, #landing-view{
+    #contact, #about-residence{
         background-attachment: scroll;
     }
 }
@@ -494,7 +506,7 @@ a.privacy-policy:hover {
         background-size: cover;
         width: 100vw;
     }
-    #skills {
+    #contact {
         background-position: center;
         background-size: cover;
         width: 100vw;
