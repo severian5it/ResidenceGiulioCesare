@@ -122,7 +122,7 @@ h1 {
     padding-bottom: 10%;
     font-size: 1.75em;
     line-height: 2;
-    color: #c7ddef;
+    color: #112739;
 }
 
 h2 {
@@ -142,8 +142,8 @@ h2 {
 
 #where {
     width: 100vw;
-    height: 100vh;
-    background-color: dimgrey;
+    height: 80vh;
+    background-color: lightgrey;
 }
 
 
@@ -175,8 +175,8 @@ h2 {
 .card-landing {
     background-color: #fdfdfd;
     border-radius: 2.5%;
-    width: 18em;
-    height: 18em;
+    width: 80%;
+    height: auto;
     top: 50%;
     left: 10%;
     margin: 15% auto;
@@ -221,7 +221,7 @@ h2 {
 
 #carousel {
     min-height: 500px;
-    background-color: lightgrey;
+    background-color: grey;
 }
 
 .carousel-inner img {
