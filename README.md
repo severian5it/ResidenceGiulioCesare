@@ -1,8 +1,6 @@
-# Your Project's Name
+# Residence Giulio Cesare
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+My project is about a fictional Residence In Rome 
  
 ## UX
  
@@ -30,10 +28,26 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+other than the holy trinity of Web Development, HTML, CSS and JavaScript I took advantage of the following technologies:
 
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - The project uses **JQuery** to improve Scroll Up between Section and to show a *Modal* after Contact Form 
+    Submission
+- [Bootstrap](https://getbootstrap.com/)
+    - The project relies heavily on **Bootstrap** component and predefined styles.
+- [FontAwesome](https://fontawesome.com/)
+    - **FontAwesome** is the source of most of the icons
+    
+In terms of Tools I used the following tools, to develop and design:
+
+- [PyCharm](https://www.jetbrains.com/pycharm/)
+    -  My favourite IDE, used to generate a local website and edit each file
+- [Balsamiq](https://balsamiq.com/)
+    - WireFrame Designer, used with CodeInstitute license, definitively to best resource to wireframe.
+- [Google Chrome](https://www.google.com/chrome/) and [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+    - Site has been tested on both popular Browser for several distinct dimensions.
+
+
 
 
 ## Testing
@@ -67,6 +81,23 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
+code can be deployed to heroku with following instructions
+```shell
+heroku apps:create milestone1-pierluca
+git commit
+git push heroku master
+```
+
+code can be fetched locally with following command
+```shell
+https://github.com/severian5it/Milestone1.git
+```
+
+is possible to run it locally running a python server and visiting localhost:8000
+```python
+python -m SimpleHTTPServer
+```
+
 
 ## Credits
 
@@ -74,7 +105,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from
 
 ### Acknowledgements
 
