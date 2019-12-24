@@ -118,6 +118,23 @@ h1 {
     z-index: 1;
 }
 
+#about-residence h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    height: 30%;
+    width: 60%;
+    text-shadow: #000 1px 0 10px;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
 .about-row {
     padding-bottom: 10%;
     font-size: 1.75em;
@@ -228,19 +245,54 @@ h2 {
         max-height: 500px;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    height: 70px !important;
+    width: 70px !important;
+}
+
+/*carousel indicators */
+.carousel-indicators li {
+  background: #f00 none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 50%;
+  height: 30px;
+  margin: 3px;
+  opacity: 0.5;
+  width: 30px;
+}
+/*active slide indicator */
+.carousel-indicators .active {
+  background: #fff none repeat scroll 0 0;
+  border: 4px solid #f00;
+}
 
 /*-------CONTACT-----------*/
 
 #contact {
     background-attachment: fixed;
     background-image: url('../images/contact.jpg');
-
     background-position: left;
     background-size: cover;
     padding-bottom: 100px;
     padding-top: 42px;
     text-align: left;
     margin-bottom: 0px;
+}
+
+#contact .col-sm-6 {
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#contact .col-sm-6 p {
+    padding: 15px;
+    background-color: #fafafa;
+    border-radius: 16px;
+    text-align: center;
+    opacity: 0.8;
 }
 
 .contact-form {
