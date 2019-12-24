@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -46,23 +46,8 @@
 
 <!--*******ABOUT RESIDENCE*******-->
 <section id="about-residence">
-    <div class="container about-row">
-        <div class="row" id='about'>
-            <h2>Su di Noi</h2>
-        </div>
-        <div class="col-xs-6 col-sm-4 project-cards">
-            <div class="card card-landing">
-                <div class="card-body">
-                    <h5 class="card-title">Residence Giulio Cesare garantisce ai suoi visitatori un'esperienza unica alle
-                        porte del Vaticano.</h5>
-                    <br>
-                </div>
-                <div>
-                    <h6 class="card-subtitle mb-2 text-muted">Vicino alla metro A e alla stazione San Pietro,
-                        abbiamo un servizio di Concierge 24 ore al giorno</h6>
-                </div>
-            </div>
-        </div>
+    <div class="container-fluid">
+        <h1>Residence Giulio Cesare<br><br>Un'esperienza unica alle porte del Vaticano</h1>
     </div>
 </section>
 <!--***********WHERE********-->
@@ -81,7 +66,7 @@
                         <tr>
                             <td><span class="bold">Indirizzo</span></td>
                             <td><p> Residence Giulio Cesare<br> Via Crescenzio 12<br>
-                                Rome, Italy</p></td>
+                                Roma, Italia</p></td>
                         </tr>
                         <tr>
                             <td><span class="bold">Telefono</span></td>
@@ -118,6 +103,11 @@
         <div class="row text-center pb-5">
             <div class="col justify-content-center">
                 <div id="roomCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#roomCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#roomCarousel" data-slide-to="1"></li>
+                        <li data-target="#roomCarousel" data-slide-to="2"></li>
+                    </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="src/images/residence1-resize.jpg" alt="First slide">
@@ -129,12 +119,12 @@
                             <img class="d-block w-100" src="src/images/residence3-resize.jpg" alt="Third slide">
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#roomCarousel" role="button"
+                    <a class="carousel-control-prev" data-target="#roomCarousel" role="button"
                        data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#roomCarousel" role="button"
+                    <a class="carousel-control-next" data-target="#roomCarousel" role="button"
                        data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
@@ -144,10 +134,17 @@
         </div>
     </div>
     </div>
+    <div class="row text-center py-5">
+        <div class="col">
+            <h4 class="text-uppercase bold-text">Ogni Stanza ha mobilia in legno e metallo di design<br>
+            I pavimenti e le mura sono decorate ai migliori standard.
+            </h4>
+        </div>
+    </div>
     <div class="row pb-5">
         <div class="col text-center">
-            <a class="btn btn-explore btn-lg btn-danger" href="https://www.instagram.com/"
-               role="button">Visualizza</a>
+            <a class="btn dark" style="font-size:18px" href="https://www.instagram.com/"
+               role="button"><i class="fab fa-instagram fa-5x alignment" style="font-size:48px;color:red"></i></a>
         </div>
     </div>
     </div>
@@ -157,9 +154,17 @@
 <section class="scroll" id="contact">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6"></div>
+            <div class="col text-center"><h2 id="contact-head">Contact</h2></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <p> Volete passare una meravigliosa informazione nella cittadinanza piu' affascinante del mondo? <br>
+                    Accettiamo prenotazioni per permanenze lunghe e brevi, transferimenti dall'aeroporto e visite guidate.
+                    <br>Lasciate i vostri dettagli e sarete contattati.
+                </p>
+            </div>
             <div class="col-xs-12 col-sm-6 contact-form">
-                <h2 id="contact-head">Contact</h2>
                 <form id='contact-form'>
                     <div class="form-group">
                         <input type="text" class="form-control" id="exampleInputName" name='Name' placeholder="Nome"
@@ -177,7 +182,11 @@
                         <textarea class="form-control" name="message" rows="6" placeholder="Messaggio"
                                   required></textarea>
                     </div>
-                    <input type="submit" value='Invia' class="btn btn-default">
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn btn-default">Invia</button>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
@@ -208,13 +217,12 @@
                 <h4 class="modal-title">Contact Form</h4>
             </div>
             <div class="modal-body">
-                <p class='header'> About this contact form:</p>
-                <p>This contact form does not currently send messages or collect any personal information. Furthermore,
-                    this site does not collect any personal data.
-                        privacy policy</a> for more details.</p>
+                <p class='header'> Relativamente a questo contatto.</p>
+                <p>Questo modulo non manda messaggi o non raccoglie informazioni personali.
+                    privacy policy</a> Per maggiori dettagli.</p>
 
                 <div class="modal-footer">
-                    <button class='btn btn-md btn-default' data-dismiss="modal">I Understand!</button>
+                    <button class='btn btn-md btn-default' data-dismiss="modal">Ho capito!</button>
                 </div>
             </div>
         </div>
