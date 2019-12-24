@@ -1,15 +1,28 @@
 # Residence Giulio Cesare
 
-My project is about a fictional Residence In Rome 
+[View website in Heroku](https://milestone1-pierluca.herokuapp.com/index.html)
+
+My project is about a fictional Residence in Rome, in proximity with the Vatican. 
+User navigating to the site will be exposed to the following information:
+* Residence Location
+* a view of the rooms, with Link to Instagram Account
+* a form to get in contact with the residence to book their accomodation
  
 ## UX
+
+**The ideal client for this business is:**
+
+**Visitors to this website are searching for:**
+
+**This project is the best way to help them achieve these things because:**
+
+
+**Client stories**
+
+
+
+Wireframe mockups is available [here](wireframes/Wireframe.pdf)
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
@@ -24,7 +37,8 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- A Section serving a series of card showing the actractions in proximity of the place
+- A Section showing entusiastic user comments
 
 ## Technologies Used
 
@@ -37,6 +51,8 @@ other than the holy trinity of Web Development, HTML, CSS and JavaScript I took 
     - The project relies heavily on **Bootstrap** component and predefined styles.
 - [FontAwesome](https://fontawesome.com/)
     - **FontAwesome** is the source of most of the icons
+- [Popper.js](https://popper.js.org/)
+    - **Popper** is used for the responsive NavBar
     
 In terms of Tools I used the following tools, to develop and design:
 
@@ -51,6 +67,11 @@ In terms of Tools I used the following tools, to develop and design:
 
 
 ## Testing
+
+I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and [W3C Markup Validation Service](https://validator.w3.org/) 
+to check the validity of the website code.
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -72,28 +93,22 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-code can be deployed to heroku with following instructions
+Site has been developed on PyCharm and pushed to GitHub via terminal commands.
+Code can be deployed to heroku with following instructions:
 ```shell
 heroku apps:create milestone1-pierluca
-git commit
 git push heroku master
 ```
+first line will create the application, second line will push the current commit to heroku; no variable must be set, all
+the dependency are managed by the file `index.php`, which is necessary.
 
 code can be fetched locally with following command
 ```shell
 https://github.com/severian5it/Milestone1.git
 ```
 
-is possible to run it locally running a python server and visiting localhost:8000
+is possible to run it locally running a python server on the same location on index.html and then visiting 
+*localhost:8000*
 ```python
 python -m SimpleHTTPServer
 ```
