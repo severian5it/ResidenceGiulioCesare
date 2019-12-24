@@ -111,7 +111,7 @@ a {
 
 #about-residence {
     background-attachment: fixed;
-    background-image: url('../images/vatican.jpg');
+    background-image: url('../images/landing-resize.jpg');
     background-position: bottom;
     background-size: cover;
     height: 100vh;
@@ -260,7 +260,7 @@ h2 {
 
 #contact {
     background-attachment: fixed;
-    background-image: url('../images/contact.jpg');
+    background-image: url('../images/contact-resize.jpg');
     background-position: left;
     background-size: cover;
     padding-top: 0px;
