@@ -53,6 +53,8 @@ other than the holy trinity of Web Development, HTML, CSS and JavaScript I took 
     - **FontAwesome** is the source of most of the icons
 - [Popper.js](https://popper.js.org/)
     - **Popper** is used for the responsive NavBar
+- [Google Fonts](https://fonts.google.com/) 
+    - to style the website fonts
     
 In terms of Tools I used the following tools, to develop and design:
 
@@ -62,6 +64,7 @@ In terms of Tools I used the following tools, to develop and design:
     - WireFrame Designer, used with CodeInstitute license, definitively to best resource to wireframe.
 - [Google Chrome](https://www.google.com/chrome/) and [Firefox](https://www.mozilla.org/en-US/firefox/new/)
     - Site has been tested on both popular Browser for several distinct dimensions.
+    
 
 
 

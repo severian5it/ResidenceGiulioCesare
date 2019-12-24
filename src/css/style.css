@@ -1,3 +1,18 @@
+/*----------GENERAL----------*/
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Lato&display=swap");
+
+
+.top {
+    padding-left: 12px;
+    margin-top: 12%;
+}
+
+h1 {
+    padding-top: 5%;
+    font-size: 5.5em;
+}
+
+
 body {
     background-color: #fdfdfd;
     font-family: 'Nobile', sans-serif;
@@ -91,19 +106,6 @@ a {
     }
 }
 
-/*----------GENERAL----------*/
-
-.top {
-    padding-left: 12px;
-    margin-top: 12%;
-}
-
-h1 {
-    padding-top: 5%;
-    font-size: 5.5em;
-}
-
-
 
 /*------------ABOUT----------*/
 
@@ -159,7 +161,7 @@ h2 {
 
 #where {
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     background-color: lightgrey;
 }
 
@@ -172,39 +174,21 @@ h2 {
     width: 100%;
 }
 
+#where h3 {
+  font-family: 'Tangerine', serif;
+  font-size: 30px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
 
 .card-body .row {
     text-align: center;
     padding-top: 10px;
 }
 
-.project-cards {
-    display: inline-table;
-    justify-content: center;
-    align-items: center;
-
-}
 
 .col-xs-6 {
     align-items: center;
-}
-
-.card-landing {
-    background-color: #fdfdfd;
-    border-radius: 2.5%;
-    width: 80%;
-    height: auto;
-    top: 50%;
-    left: 10%;
-    margin: 15% auto;
-    padding: 15px;
-    align-items: center;
-    z-index: 2;
-    display: block;
-    opacity: 0.8;
-    transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
 }
 
 .card:hover {
@@ -225,14 +209,6 @@ h2 {
     font-size: 1.07em;
 }
 
-.desktop-icon {
-    padding: 20px 0;
-    border-radius: 50%;
-    font-size: 34px;
-    width: 54px;
-    height: 54px;
-    line-height: 18px;
-}
 
 /*-------CAROUSEL-----------*/
 
@@ -269,6 +245,17 @@ h2 {
   border: 4px solid #f00;
 }
 
+#carousel h3 {
+  font-family: 'Tangerine', serif;
+  font-size: 30px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+#carousel h4 {
+  font-family: 'Tangerine', serif;
+  text-shadow: 2px 2px 2px #aaa;
+}
+
 /*-------CONTACT-----------*/
 
 #contact {
@@ -276,20 +263,17 @@ h2 {
     background-image: url('../images/contact.jpg');
     background-position: left;
     background-size: cover;
+    padding-top: 0px;
     padding-bottom: 100px;
-    padding-top: 42px;
     text-align: left;
     margin-bottom: 0px;
 }
 
-#contact .col-sm-6 {
-    margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-}
 #contact .col-sm-6 p {
-    padding: 15px;
+    padding: 0;
+    margin: 0;
     background-color: #fafafa;
+    font-size: 20px;
     border-radius: 16px;
     text-align: center;
     opacity: 0.8;
