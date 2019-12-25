@@ -40,10 +40,9 @@
     - [Features for Future Releases](#features-for-future-releases)
 
 3. [Technologies Used](#technologies-used)
-    - [Tools](#tools)
-    - [Databases](#databases)
     - [Libraries](#libraries)
-    - [Languages](#languages)
+    - [Tools](#tools)
+
 
 4. [Testing](#testing)
     - See separate [TESTING.md](TESTING.md) file.
@@ -68,30 +67,68 @@ User navigating to the site will be exposed to the following information:
  
 # UX
 
+This is a website of a Residence/ B&B located in the hearth of Rome, providing services to the turist, such as
+accomodation, for short and long stay, passage from city's airport and guided tours.
+
 **The ideal client for this business is:**
-* potential tourists or visitors, for every period of the year
-* returning clients
+First and foremost, potential tourists or visitors, for every period of the year, Rome is a good destination regardless
+of the season, then the site is targeting in particular:
+
+* people without means of transportation.
+* high segment target, because it's located in a central and expensive neighbourhood.
+* returning clients, who wants to keep contact.
+* tourist that would like to enrich their experience with guided tours
 
 **Visitors to this website are searching for:**
-* location of the residence
-* contact
-* pictures of the rooms
+* location of the residence.
+* contact.
+* pictures of the rooms.
 
 **This project is the best way to help them achieve these things because:**
 
+People looking for an accomodation in their selected destination need to make an informed decision and they are usually
+relying on a website with full visual and geolocalized content. 
+The site is presenting them in a succint and easy to use way everything they need to know.
+
+The goal was to make a strong first impact with the landing page, and therefore serve the most relevant informations.
+
+* Picture landing page, for striking ﬁrst impression.
+* A Carousel with photos showing the general look and feel of the Rooms.
+* A Section showing the location and address
+* A Section with a contact form for enquiries and bookings.
+* A navigation bar and a footer
 
 **Client stories**
 
+As a visitor of the Residence Giulio Cesare website I expect the following:
+
+1. To find with ease what I am looking for, I want the layout of the site to make sense so I am not confused 
+or frustated using it. 
+
+1. The information I am presented with to be laid out in a way that is easy for me to digest, so that I find what 
+I need in the quickest possible way.
+
+1. The site to be easily navigable from any device, desktop, tablet or phone. For the content to look good and be useable on all of these devices.
+
+1. To learn more about the residence and their offering, so that I can make the best possible choice.
+
+1. To easily locate it in the city of Rome
+
+1. Plenty of high quality images of the Rooms that I can book.
+
+1. To be able to get in contact to the management in a easy way.
 
 
-Wireframe mockups is available [here](wireframes/Wireframe.pdf)
+
+
+Wireframe mockup, created using [Balsamiq](https://balsamiq.com/), is available [here](wireframes/Wireframe.pdf)
  
 
-## Features
+# Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
-### Existing Features
+## Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
@@ -99,11 +136,13 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
-- A Section serving a series of card showing the actractions in proximity of the place
-- A Section showing entusiastic user comments
+## Features for future releases
+- A Section serving a series of card showing the actractions in proximity of the place.
+- A Section showing entusiastic user comments.
 
-## Technologies Used
+# Technologies Used
+
+## Libraries
 
 other than the holy trinity of Web Development, HTML, CSS and JavaScript I took advantage of the following technologies:
 
@@ -119,6 +158,8 @@ other than the holy trinity of Web Development, HTML, CSS and JavaScript I took 
 - [Google Fonts](https://fonts.google.com/) 
     - to style the website fonts
     
+## Tools
+
 In terms of Tools I used the following tools, to develop and design:
 
 - [PyCharm](https://www.jetbrains.com/pycharm/)
@@ -129,10 +170,7 @@ In terms of Tools I used the following tools, to develop and design:
     - Site has been tested on both popular Browser for several distinct dimensions.
     
 
-
-
-
-## Testing
+# Testing
 
 I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and [W3C Markup Validation Service](https://validator.w3.org/) 
 to check the validity of the website code.
@@ -180,19 +218,15 @@ first line will create the application, second line will push the current commit
 the dependency are managed by the file `index.php`, which is necessary.
 
 
-
-
-
-
-## Credits
+# Credits
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-### Media
+## Media
 - The photos used in this site were obtained from
 
-### Acknowledgements
+## Acknowledgements
 
 - I received inspiration for this project from X
 
