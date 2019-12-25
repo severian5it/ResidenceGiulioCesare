@@ -1,5 +1,5 @@
-# Residence Giulio Cesare
-
+<div align="center">
+<h1>  Residence Giulio Cesare  </h1>
 <div align="center">
     <a href="https://milestone1-pierluca.herokuapp.com/index.html"> View Website in Heroku </a>
 </div>
@@ -37,27 +37,20 @@
         - [Terms and Conditions / Privacy Policy pages](#terms-and-conditions-privacy-policy-pages)
     - [Features for Future Releases](#features-for-future-releases)
 
-3. [Information Architecture](#information-architecture)
-    - [Database choice](#database-choice)
-    - [Data Models](#data-models)
-        - [User](#user)
-        - [Products App Model](#products-app-model)
-        - [Cart App Models](#cart-app-models)
-
-4. [Technologies Used](#technologies-used)
+3. [Technologies Used](#technologies-used)
     - [Tools](#tools)
     - [Databases](#databases)
     - [Libraries](#libraries)
     - [Languages](#languages)
 
-5. [Testing](#testing)
+4. [Testing](#testing)
     - See separate [TESTING.md](TESTING.md) file.
 
-6. [Deployment](#deployment)
+5. [Deployment](#deployment)
     - [How to run this project locally](#how-to-run-this-project-locally)
     - [Heroku Deployment](#heroku-deployment)
 
-7. [Credits](#credits)
+6. [Credits](#credits)
     - [Content](#content)
     - [Images](#images)
     - [Code](#code)
@@ -71,11 +64,16 @@ User navigating to the site will be exposed to the following information:
 * a view of the rooms, with Link to Instagram Account
 * a form to get in contact with the residence to book their accomodation
  
-## UX
+# UX
 
 **The ideal client for this business is:**
+* potential tourists or visitors, for every period of the year
+* returning clients
 
 **Visitors to this website are searching for:**
+* location of the residence
+* contact
+* pictures of the rooms
 
 **This project is the best way to help them achieve these things because:**
 
@@ -157,9 +155,20 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Deployment
+# Deployment
 
 Site has been developed on PyCharm and pushed to GitHub via terminal commands.
+code can be fetched locally with following command
+```shell
+git clone https://github.com/severian5it/Milestone1.git
+```
+## how to run this project locally
+is possible to run it locally running a python server on the same location on index.html and then visiting 
+*localhost:8000*
+```python
+python -m SimpleHTTPServer
+```
+## heroku deployment
 Code can be deployed to heroku with following instructions:
 ```shell
 heroku apps:create milestone1-pierluca
@@ -168,16 +177,9 @@ git push heroku master
 first line will create the application, second line will push the current commit to heroku; no variable must be set, all
 the dependency are managed by the file `index.php`, which is necessary.
 
-code can be fetched locally with following command
-```shell
-https://github.com/severian5it/Milestone1.git
-```
 
-is possible to run it locally running a python server on the same location on index.html and then visiting 
-*localhost:8000*
-```python
-python -m SimpleHTTPServer
-```
+
+
 
 
 ## Credits
