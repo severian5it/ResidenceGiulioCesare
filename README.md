@@ -54,7 +54,7 @@ User navigating to the site will be exposed to the following information:
 This is a website of a Residence/ B&B located in the hearth of Rome, providing services to the turist, such as
 accomodation, for short and long stay, passage from city's airport and guided tours.
 
-###The ideal client for this business is:
+### The ideal client for this business is:
 First and foremost, potential tourists or visitors, for every period of the year, Rome is a good destination regardless
 of the season, then the site is targeting in particular:
 
@@ -63,12 +63,12 @@ of the season, then the site is targeting in particular:
 * returning clients, who wants to keep contact.
 * tourist that would like to enrich their experience with guided tours
 
-###Visitors to this website are searching for:
+### Visitors to this website are searching for:
 * location of the residence.
 * contact.
 * pictures of the rooms.
 
-###This project is the best way to help them achieve these things because:
+### This project is the best way to help them achieve these things because:
 
 People looking for an accomodation in their selected destination need to make an informed decision and they are usually
 relying on a website with full visual and geolocalized content. 
@@ -82,7 +82,7 @@ The goal was to make a strong first impact with the landing page, and therefore 
 * A Section with a contact form for enquiries and bookings.
 * A navigation bar and a footer
 
-###Client stories
+### Client stories
 
 As a visitor of the Residence Giulio Cesare website I expect the following:
 
