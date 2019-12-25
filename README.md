@@ -1,5 +1,7 @@
 <div align="center">
-<h1>  Residence Giulio Cesare  </h1>
+    <h1>  Residence Giulio Cesare  </h1>
+</div>
+
 <div align="center">
     <a href="https://milestone1-pierluca.herokuapp.com/index.html"> View Website in Heroku </a>
 </div>
