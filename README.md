@@ -1,6 +1,69 @@
 # Residence Giulio Cesare
 
-[View website in Heroku](https://milestone1-pierluca.herokuapp.com/index.html)
+<div align="center">
+    <a href="https://milestone1-pierluca.herokuapp.com/index.html"> View Website in Heroku </a>
+</div>
+
+
+
+
+![Home page](src/images/landing-resize.jpg)
+
+## Table of Contents
+1. [UX](#ux)
+    - [Goals](#goals)
+        - [Visitor Goals](#visitor-goals)
+        - [Business Goals](#business-goals)
+    - [User Stories](#user-stories)
+    - [Design Choices](#design-choices)
+    - [Wireframes](#wireframes)
+
+2. [Features](#features)
+    - [Existing Features](#existing-features)
+        - [Elements on every Page](#elements-on-every-page)
+        - [Home Page](#home-page)
+        - [Shop Page](#ashop-page)
+        - [Search Page](#search-page)
+        - [Listing Detail Page](#listing-detail-page)
+        - [About Page](#about-page)
+        - [Frequently Asked Questions Page](#frequently-asked-questions-page)
+        - [Contact Page](#contact-page)
+        - [Register Page](#register-page)
+        - [Login Page](#login-page)
+        - [Account Page](#account-page)
+        - [Log out Page](#log-out-page)
+        - [Cart Page](#cart-page)
+        - [Checkout](#checkout)
+        - [Terms and Conditions / Privacy Policy pages](#terms-and-conditions-privacy-policy-pages)
+    - [Features for Future Releases](#features-for-future-releases)
+
+3. [Information Architecture](#information-architecture)
+    - [Database choice](#database-choice)
+    - [Data Models](#data-models)
+        - [User](#user)
+        - [Products App Model](#products-app-model)
+        - [Cart App Models](#cart-app-models)
+
+4. [Technologies Used](#technologies-used)
+    - [Tools](#tools)
+    - [Databases](#databases)
+    - [Libraries](#libraries)
+    - [Languages](#languages)
+
+5. [Testing](#testing)
+    - See separate [TESTING.md](TESTING.md) file.
+
+6. [Deployment](#deployment)
+    - [How to run this project locally](#how-to-run-this-project-locally)
+    - [Heroku Deployment](#heroku-deployment)
+
+7. [Credits](#credits)
+    - [Content](#content)
+    - [Images](#images)
+    - [Code](#code)
+    - [Acknowledgements](#acknowledgements)
+
+8. [Contact](#contact)
 
 My project is about a fictional Residence in Rome, in proximity with the Vatican. 
 User navigating to the site will be exposed to the following information:
@@ -128,3 +191,5 @@ python -m SimpleHTTPServer
 ### Acknowledgements
 
 - I received inspiration for this project from X
+
+
