@@ -13,11 +13,10 @@
 
 ## Table of Contents
 1. [UX](#ux)
-    - [Goals](#goals)
-        - [Visitor Goals](#visitor-goals)
-        - [Business Goals](#business-goals)
-    - [User Stories](#user-stories)
-    - [Design Choices](#design-choices)
+    - [Ideal Client](#The-ideal-client-for-this-business-is:)
+    - [Visitors' Searches](#The-ideal-client-for-this-business-is:)
+    - [Project' Purpose](#This-project-is-the-best-way-to-help-them-achieve-these-things-because:)
+    - [Client Stories](#client-stories)
     - [Wireframes](#wireframes)
 
 2. [Features](#features)
@@ -119,7 +118,7 @@ I need in the quickest possible way.
 1. To be able to get in contact to the management in a easy way.
 
 
-
+### wireframes
 
 Wireframe mockup, created using [Balsamiq](https://balsamiq.com/), is available [here](wireframes/Wireframe.pdf)
  
