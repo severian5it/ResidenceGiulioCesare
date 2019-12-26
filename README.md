@@ -15,7 +15,7 @@
 1. [UX](#ux)
     - [Ideal Client](#The-ideal-client-for-this-business-is:)
     - [Visitors' Searches](#The-ideal-client-for-this-business-is:)
-    - [Project' Purpose](#This-project-is-the-best-way-to-help-them-achieve-these-things-because:)
+    - [Project's Purpose](#This-project-is-the-best-way-to-help-them-achieve-these-things-because:)
     - [Client Stories](#client-stories)
     - [Wireframes](#wireframes)
 
@@ -71,7 +71,7 @@ of the season, then the site is targeting in particular:
 ### This project is the best way to help them achieve these things because:
 
 People looking for an accomodation in their selected destination need to make an informed decision and they are usually
-relying on a website with full visual and geolocalized content. 
+relying on a website with full visual and geo-localized content. 
 The site is presenting them in a succint and easy to use way everything they need to know.
 
 The goal was to make a strong first impact with the landing page, and therefore serve the most relevant informations.
@@ -205,13 +205,21 @@ the dependency are managed by the file `index.php`, which is necessary.
 # Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The structure of the project was modeled on the examples provided by codeinstitute, in particular on 
+[Haley Schafer Portfolio](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive)
+
 
 ## Media
-- The photos used in this site were obtained from
+- The photos used in the landing page was downloaded from [Unsplash](https://unsplash.com/), and credit goes to 
+Christopher Czermak @czermak_photography
 
 ## Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my mentor, Aaron Sinnot.
+
+# Contact
+To contact me feel free to email
+
+ `pdelbuono (at) gmail (dot) com`
 
 
