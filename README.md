@@ -13,8 +13,8 @@
 
 ## Table of Contents
 1. [UX](#ux)
-    - [Ideal Client](#The-ideal-client-for-this-business-is:)
-    - [Visitors' Searches](#The-ideal-client-for-this-business-is:)
+    - [Ideal Client](#The-ideal-client-for-this-business-is)
+    - [Visitors' Searches](#Visitors-to-this-website-are-searching-for:)
     - [Project's Purpose](#This-project-is-the-best-way-to-help-them-achieve-these-things-because:)
     - [Client Stories](#client-stories)
     - [Wireframes](#wireframes)
@@ -34,7 +34,6 @@
 
 
 4. [Testing](#testing)
-    - See separate [TESTING.md](TESTING.md) file.
 
 5. [Deployment](#deployment)
     - [How to run this project locally](#how-to-run-this-project-locally)
@@ -125,7 +124,6 @@ In this section, you should go over the different parts of your project, and des
 ### Room Carousel
 ### Contact Form
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ## Features for future releases
 - A Section serving a series of card showing the attractions in proximity of the place.
@@ -165,6 +163,8 @@ In terms of Tools I used the following tools, to develop and design:
 
 I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and [W3C Markup Validation Service](https://validator.w3.org/) 
 to check the validity of the website code.
+
+The work has been reviewed by a number of relatives and friend, mostly on the mobile, each of them giving suggestion.
 
 
 
