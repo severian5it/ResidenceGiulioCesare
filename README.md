@@ -14,8 +14,8 @@
 ## Table of Contents
 1. [UX](#ux)
     - [Ideal Client](#The-ideal-client-for-this-business-is)
-    - [Visitors' Searches](#Visitors-to-this-website-are-searching-for:)
-    - [Project's Purpose](#This-project-is-the-best-way-to-help-them-achieve-these-things-because:)
+    - [Visitors' Searches](#Visitors-to-this-website-are-searching-for)
+    - [Project's Purpose](#This-project-is-the-best-way-to-help-them-achieve-these-things-because)
     - [Client Stories](#client-stories)
     - [Wireframes](#wireframes)
 
