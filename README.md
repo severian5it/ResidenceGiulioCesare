@@ -26,8 +26,9 @@
         - [Location](#Location)
         - [Carousel](#Room-Carousel)
         - [Contact](#Contact-Form)
+        - [Footer](#Footer)
         - [Alternate Language](#Alternate-Language-Version)
-        - [Colors Palette](#Color-palette)
+        - [Colors Palette](#Colors-Palette)
         - [Fonts](#Fonts)
 
     - [Features for Future Releases](#features-for-future-releases)
@@ -123,13 +124,19 @@ In this section, you should go over the different parts of your project, and des
 ## Existing Features
 
 ### Navbar
+bootstrap responsive navigation bar with national flag on the top left. For mobile-sized devices a hamburger button on 
+the top-right expands a menu with links to the different section on the website. On larger devices the expanded menu 
+is shown instead.
+Navbar will be static on the top of the page.
 ### Landing Page
+Landing Page presents a picture taken in the proximity of the residence, along with a presentation heading.
 ### Location
 A dedicated section for location has been designed, containing an *iframe* from google maps 
 and a card with the address.
 ### Room Carousel
 A carousel sliding through three images of the residence has been framed in a dedicate section. Naviagation is possible
 via indicators or via control.
+On the bottom of the page an icon to *Instagram* allows to see more.
 ### Contact Form
 
 This page includes a form with 4 required fields:
@@ -142,10 +149,18 @@ Control have been implemented to avoid leaving the fields empty or to submit inv
 Once the form has been validated, a *modal* window will appear, informing the user that the data won't be 
 actually submitted.
 
+### Footer
+
+On the very bottom of the page a footer has placed, with link to the following Residence Resource:
+* TripAdvisor
+* Booking
+* AirBnb
+
+
 
 ### Alternate Language Version
 
-via a flag button in the navbar( `Italy/UK`) is possible to switch between Italian or English Version of the site.
+via a flag button in the navbar(`Italy/UK`) is possible to switch between Italian or English Version of the site.
 
 ### Colors Palette
 
