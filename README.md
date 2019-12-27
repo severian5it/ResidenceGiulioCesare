@@ -125,11 +125,37 @@ In this section, you should go over the different parts of your project, and des
 ### Navbar
 ### Landing Page
 ### Location
+A dedicated section for location has been designed, containing an *iframe* from google maps 
+and a card with the address.
 ### Room Carousel
+A carousel sliding through three images of the residence has been framed in a dedicate section. Naviagation is possible
+via indicators or via control.
 ### Contact Form
+
+This page includes a form with 4 required fields:
+* Name
+* Phone Number
+* Email Address
+* Message
+
+Control have been implemented to avoid leaving the fields empty or to submit invalid mail addresses.
+Once the form has been validated, a *modal* window will appear, informing the user that the data won't be 
+actually submitted.
+
+
 ### Alternate Language Version
+
+via a flag button in the navbar( `Italy/UK`) is possible to switch between Italian or English Version of the site.
+
 ### Colors Palette
+
+![Color Palette](src/images/palette.png)
+
+Shades of Blue and Grey have been used to convey a professional and stable image.
+
 ### Fonts
+
+From Google Fonts has been used *Tangerine* font; for the rest of the Headings *Nobile* standard font has been used.
 
 ## Features for future releases
 - A Section serving a series of card showing the attractions in proximity of the place.
