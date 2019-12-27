@@ -26,6 +26,7 @@
         - [Location](#Location)
         - [Carousel](#Room-Carousel)
         - [Contact](#Contact-Form)
+        - [Alternate Language](#Alternate-Language-Version)
         - [Colors Palette](#Color-palette)
         - [Fonts](#Fonts)
 
@@ -126,6 +127,7 @@ In this section, you should go over the different parts of your project, and des
 ### Location
 ### Room Carousel
 ### Contact Form
+### Alternate Language Version
 ### Colors Palette
 ### Fonts
 
@@ -170,7 +172,7 @@ to check the validity of the website code.
 
 The work has been reviewed by a number of relatives and friend, mostly on the mobile, each of them giving suggestion.
 
-The website has been resized multiple time to test the its responsiveness.
+The website has been test with multiple resizing to test the its responsiveness.
 via the *inspect* chrome functionality it has been examined for the most popular mobile devices such as 
 * iPhone 6/7/8
 * iPad
@@ -178,20 +180,22 @@ via the *inspect* chrome functionality it has been examined for the most popular
 
 also following section has been tested:
 
-1. Iframe Map
+1. Iframe Map: zooming in and out of the map.
 
-1. Carousel
+1. Carousel: sliding through the rooms' pictures composing the carousel, testing indicators at the bottom
+of the slides.
 
 1. Contact form:
-    1. Go to the "Contact Us" page
+    1. Go to the "Contact" Section
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    4. Try to submit the form with all inputs valid and verify that the modal will appear.
 
 
-Bug:
-    carousel
-
+Bugs: most relevant bug to tackle involved *bootstrap4 carousel* which arrows indicators
+pushed navigation to the top of the section, but changing the `data-target` field solved it.
+Other issues involved the JavaScript file which at some point was not adapting to new component added,
+and this meant refactoring from the original version.
 
 # Deployment
 
@@ -225,7 +229,9 @@ the dependency are managed by the file `index.php`, which is necessary.
 
 ## Media
 - The photos used in the landing page was downloaded from [Unsplash](https://unsplash.com/), and credit goes to 
-Christopher Czermak @czermak_photography
+Christopher Czermak @czermak_photography.
+- The photos used in the landing page was downloaded from [Unsplash](https://unsplash.com/), and credit goes to 
+Cristina Gottardi.
 
 ## Acknowledgements
 
