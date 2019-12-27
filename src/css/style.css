@@ -12,12 +12,32 @@ h1 {
     font-size: 5.5em;
 }
 
+h2 {
+    margin-left: 15px;
+    margin-top: 15%;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
 
 body {
     background-color: #fdfdfd;
     font-family: 'Nobile', sans-serif;
 }
 
+a {
+    background-color: #E4E4E4;
+    color: #888888;
+    font-size: 1.12em;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.alignment {
+    line-height: 2px;
+}
 /*----------NAVBAR---------*/
 
 .navbar {
@@ -44,27 +64,6 @@ body {
     margin-top: 1%;
 }
 
-.language {
-    display: inline-block;
-    padding-right: 20px;
-    line-height: 44px;
-}
-
-.language:hover {
-    color: #564F6F!important;
-    text-decoration: none;
-}
-
-a {
-    background-color: #E4E4E4;
-    color: #888888;
-    font-size: 1.12em;
-    padding-left: 10px;
-    padding-right: 10px;
-    transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-}
 
 .navbar-default .navbar-nav li a:hover {
     color: #564F6F;
@@ -137,25 +136,6 @@ a {
             animation: fadein 3s;
 }
 
-.about-row {
-    padding-bottom: 10%;
-    font-size: 1.75em;
-    line-height: 2;
-    color: #112739;
-}
-
-h2 {
-    margin-left: 15px;
-    margin-top: 15%;
-    letter-spacing: 7px;
-    text-transform: uppercase;
-}
-
-.about-row .about-p {
-    font-size: .8em;
-    margin: 40px 0px 40px 0px;
-    color: #112739;
-}
 
 /*------------WHERE----------*/
 
@@ -311,9 +291,7 @@ a {
     background-color: transparent;
 }
 
-.alignment {
-    line-height: 2px;
-}
+
 
 i {
     display: inline-block;
