@@ -275,7 +275,7 @@ the dependency are managed by the file `index.php`, which is necessary.
 *Christopher Czermak* @czermak_photography.
 - The photos used in the landing page was downloaded from [Unsplash](https://unsplash.com/), and credit goes to 
 *Cristina Gottardi*.
-
+Photo by Cezar Sampaio on Unsplash
 ## Acknowledgements
 
 - I received inspiration for this project from my mentor, *Aaron Sinnot*.

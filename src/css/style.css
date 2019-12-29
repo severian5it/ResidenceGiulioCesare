@@ -1,5 +1,5 @@
 /*----------GENERAL----------*/
-@import url("https://fonts.googleapis.com/css?family=Inconsolata|Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Lato|Dancing Script&display=swap");
 
 
 .top {
@@ -24,6 +24,12 @@ body {
     font-family: 'Nobile', sans-serif;
 }
 
+residence-name {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 1.4em;
+
+}
+
 a {
     background-color: #E4E4E4;
     color: #888888;
@@ -38,6 +44,9 @@ a {
 .alignment {
     line-height: 2px;
 }
+
+.bottom-buffer { margin-bottom:5px; }
+
 /*----------NAVBAR---------*/
 
 .navbar {
@@ -110,8 +119,9 @@ a {
 
 #about-residence {
     background-attachment: fixed;
-    background-image: url('../images/landing-resize.jpg');
-    background-position: bottom;
+    background-image: url('../images/landing-stpeter.jpg');
+    background-color: #1e4258;
+    background-position: center center;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -125,7 +135,7 @@ a {
     color: white;
     font-size: 30px;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 20%;
     height: 30%;
     width: 60%;
@@ -137,6 +147,229 @@ a {
             animation: fadein 3s;
 }
 
+#about-residence h2 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 11px;
+    top: 42%;
+    left: 20%;
+    height: 30%;
+    width: 60%;
+    text-shadow: #000 1px 0 10px;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+residence-name {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 1.4em;
+
+}
+
+
+/*------------ATTRACTIONS----------*/
+
+#attractions {
+
+    background-color: #494B68;
+    color: white
+}
+
+#attractions h3, h4 {
+  font-family: 'Tangerine', serif;
+  font-size: 30px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+#attractions .card{
+    border-radius:10%;
+    width: 21rem;
+    margin:auto;
+    font-family: 'Inconsolata', serif;
+
+}
+
+#attractions .image {
+    padding-top: 20px;
+}
+
+#attractions .image img {
+    border-radius: 25%;
+    cursor:pointer;
+}
+
+#attractions .col-md-6 {
+    text-align: center;
+    padding: 20px;
+}
+#attractions  .row {
+    margin: auto;
+}
+
+#attractions .row>.column {
+    padding: 0 8px;
+}
+
+#attractions .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#attractions  .row {
+    margin: auto;
+}
+
+/* Create four equal columns that floats next to eachother */
+
+#attractions .column {
+    float: left;
+    width: 12.5%;
+}
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hide the slides by default */
+
+.mySlides {
+    display: none;
+    text-align: center;
+    background-color: #000;
+    margin: 0;
+}
+
+.mySlides img {
+    height: 400px;
+    width: 400px;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    margin: 0;
+}
+
+.column img {
+    height: 100px;
+    width: 100px;
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Caption text */
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+img.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 /*------------WHERE----------*/
 
@@ -144,6 +377,7 @@ a {
     width: 100vw;
     height: 90vh;
     background-color: #265077;
+    color: white
 }
 
 
@@ -161,33 +395,31 @@ a {
   text-shadow: 4px 4px 4px #aaa;
 }
 
-
-.card-body .row {
-    text-align: center;
-    padding-top: 10px;
+#where .card {
+    color: black;
 }
 
 
-.col-xs-6 {
+#where .col-xs-6 {
     align-items: center;
 }
 
-.card:hover {
+#where .card:hover {
     opacity: 1;
 }
 
-.card-title {
+#where .card-title {
     font-size: 1.25em;
     font-weight: bold;
 }
 
-.card-subtitle {
+#where .card-subtitle {
     font-size: 1.1em;
     font-weight: bold;
 }
 
-.card-body .card-text {
-    font-size: 1.07em;
+#where .card-body .card-text {
+    font-size: 1.2em;
 }
 
 
@@ -196,7 +428,8 @@ a {
 #carousel {
     width: 100vw;
     min-height: 500px;
-    background-color: #494B68;
+    background-color: #1e4258;
+    color: white;
 }
 
 .carousel-inner img {
@@ -377,3 +610,20 @@ a.privacy-policy:hover {
         margin-top: 32vh;
     }
 }
+
+@media only screen and (max-width: 767px) {
+  #about-residence {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(../images/landing-stpeter-smalldevice.jpg);
+  }
+    #contact {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(../images/contact-smalldevice.jpg);
+  }
+}
+
+/*------ About/Gallery ------*/
+
+
