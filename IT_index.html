@@ -16,7 +16,7 @@
     <title>Residence in Rome</title>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
 
 <!--********NAVBAR********-->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
@@ -32,11 +32,15 @@
                 <a class="nav-link" href="#about-residence">Chi Siamo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#where">Dove Siamo</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="#carousel">Stanze</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#attractions">Attrazioni</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#where">Dove Siamo</a>
+            </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="#contact">Contatti</a>
             </li>
@@ -47,59 +51,23 @@
 <!--*******ABOUT RESIDENCE*******-->
 <section id="about-residence">
     <div class="container-fluid">
-        <h1>Residence Giulio Cesare<br><br>Un'esperienza unica alle porte del Vaticano</h1>
+        <h1 class="fade-in">Benvenuti al<br>
+            <residence-name>Residence Giulio Cesare</residence-name>
+            <br></h1>
+        <h2><br>Un'esperienza unica alle porte del Vaticano</h2>
     </div>
 </section>
-<!--***********WHERE********-->
-<section id="where">
-    <div class="container">
-        <div class="row text-center py-5">
-            <div class="col ">
-                <h3 class="text-uppercase bold-text">Dove Siamo</h3>
-            </div>
-        </div>
-        <div class="row" id="location">
-            <div class="col-sm-12 col-md-4">
-                <div class="card text-md-center">
-                    <table class="table table-hover">
-                        <tbody>
-                        <tr>
-                            <td><span class="bold">Indirizzo</span></td>
-                            <td><p> Residence Giulio Cesare<br> Via Crescenzio 12<br>
-                                Roma, Italia</p></td>
-                        </tr>
-                        <tr>
-                            <td><span class="bold">Telefono</span></td>
-                            <td>+39340580064</td>
-                        </tr>
-                        <tr>
-                            <td><span class="bold">Mail</span></td>
-                            <td colspan="2">info@giuliocesare.it</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-8">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.4016124336845!2d12.461664814913634!3d41.9057244792199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f605e7ce1418b%3A0x15511a632d64a945!2sVia%20Crescenzio%2C%2000193%20Roma%20RM!5e0!3m2!1sit!2sit!4v1576773885740!5m2!1sit!2sit"
-                            aria-label="location on Google maps"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!--*****CAROUSEL*****-->
 <section id="carousel">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row text-center py-5">
             <div class="col">
                 <h3 class="text-uppercase bold-text">Le Nostre Stanze</h3>
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row text-center pb-5">
             <div class="col justify-content-center">
                 <div id="roomCarousel" class="carousel slide" data-ride="carousel">
@@ -121,7 +89,7 @@
                     </div>
                     <a class="carousel-control-prev" data-target="#roomCarousel" role="button"
                        data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" data-target="#roomCarousel" role="button"
@@ -132,21 +100,186 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row text-center py-5">
-        <div class="col">
-            <h4 class="text-uppercase bold-text">Ogni Stanza ha mobilia in legno e metallo di design<br>
+        <div class="row text-center py-5">
+            <div class="col">
+                <h4 class="text-uppercase bold-text">Ogni Stanza ha mobilia in legno e metallo di design<br>
             I pavimenti e le mura sono decorate ai migliori standard.
-            </h4>
+                </h4>
+            </div>
         </div>
-    </div>
-    <div class="row pb-5">
-        <div class="col text-center">
-            <a class="btn dark" style="font-size:18px" href="https://www.instagram.com/"
-               role="button"><i class="fab fa-instagram fa-5x alignment" style="font-size:48px;color:red"></i></a>
+        <div class="row pb-5">
+            <div class="col text-center">
+                <a class="btn dark" style="font-size:18px" href="https://www.instagram.com/"
+                   role="button"><i class="fab fa-instagram fa-5x alignment" style="font-size:48px;color:red"></i></a>
+            </div>
         </div>
     </div>
 </section>
+<!--*****Attractions*****-->
+<section id="attractions">
+    <div class="container-fluid">
+        <div class="row text-center py-5">
+            <div class="col">
+                <h3 class="text-uppercase bold-text">Attrazioni</h3>
+                <h4 class="text-uppercase">in vicinanza a:</h4>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="image card-img-top">
+                        <img src="src/images/angel.jpg" height=200 width=200 onclick="openModal();currentSlide(1)"
+                             alt="Castel St.Angelo">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Castel St.Angelo</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="image card-img-top">
+                        <img src="src/images/vatican.jpg" height=200 width=200 onclick="openModal();currentSlide(2)"
+                             alt="Borgo Pio">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Borgo Pio</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="image card-img-top">
+                        <img src="src/images/vaticanspiral.jpg" height=200 width=200
+                             onclick="openModal();currentSlide(3)"
+                             alt="Vatican Museum">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Musei Vaticani</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="image card-img-top">
+                        <img src="src/images/peter.jpg" height=200 width=200 onclick="openModal();currentSlide(4)"
+                             alt="St. Peter">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">San Pietro</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="src/images/angel.jpg" alt="Castel St.Angelo">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="src/images/vatican.jpg" alt="Borgo Pio">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="src/images/vaticanspiral.jpg" alt="Vatican Museum">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="src/images/peter.jpg" alt="St.Peter's Basilica">
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="row thumbnails">
+
+            <div class="column">
+                <img class="demo" src="src/images/angel.jpg" onclick="currentSlide(1)" alt="Castel Sant'Angelo<p>
+                Originariamente il mausoleo di Adriano, usato dai Papi come fortezza, ai giorni nostri un museo.</p>">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="src/images/vatican.jpg" onclick="currentSlide(2)" alt="Borgo Pio<p>Elegante
+                quartiere dentro la città vaticana, dove il tempo sembra essersi fermato</p>">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="src/images/vaticanspiral.jpg" onclick="currentSlide(3)" alt="Musei Vaticani<p>
+                tra i più importanti al mondo, ospita la capella sistina e capolavori di Leonardo, Raffaello and
+                Michelangelo.</p>">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="src/images/peter.jpg" onclick="currentSlide(4)" alt="San Pietro<p>La Santa
+                 sede, posto unico per la cristianita, è la chiesa piu' grande e magnificente del mondo</p>">
+            </div>
+        </div>
+    </div>
+</div>
+<!--***********WHERE********-->
+<section id="where">
+    <div class="container-fluid">
+        <div class="row text-center py-5">
+            <div class="col ">
+                <h3 class="text-uppercase bold-text">Dove Siamo</h3>
+            </div>
+        </div>
+        <div class="row" id="location">
+            <div class="col-sm-12 col-md-4">
+                <div class="card text-md-center">
+                    <table class="table table-hover">
+                        <tbody>
+                        <tr>
+                            <td><span class="card-title">Indirizzo</span></td>
+                            <td><p><span class="card-text"> Residence Giulio Cesare<br> Via Crescenzio 12<br>
+                                Roma, Italia</span></p></td>
+                        </tr>
+                        <tr>
+                            <td><span class="card-title">Telefono</span></td>
+                            <td><p><span class="card-text">+39340580064</span></p></td>
+                        </tr>
+                        <tr>
+                            <td><span class="card-title">Mail</span></td>
+                            <td colspan="2 "><p><span class="card-text">info@giuliocesare.it</span></p></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.4016124336845!2d12.461664814913634!3d41.9057244792199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f605e7ce1418b%3A0x15511a632d64a945!2sVia%20Crescenzio%2C%2000193%20Roma%20RM!5e0!3m2!1sit!2sit!4v1576773885740!5m2!1sit!2sit"
+                            aria-label="location on Google maps"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!--*****CONTACT*****-->
 <section class="scroll" id="contact">
@@ -154,15 +287,17 @@
         <div class="row">
             <div class="col text-center"><h2 id="contact-head">Contact</h2></div>
         </div>
-
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 offset-sm-3 bottom-buffer">
                 <p> Volete passare una meravigliosa vacanza nella città piu' affascinante del mondo? <br>
                     Accettiamo prenotazioni per permanenze lunghe e brevi, transferimenti dall'aeroporto e visite guidate.
                     <br>Lasciate i vostri dettagli e sarete contattati.
                 </p>
             </div>
-            <div class="col-xs-12 col-sm-6 contact-form">
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 offset-sm-3 contact-form">
                 <form id='contact-form'>
                     <div class="form-group">
                         <input type="text" class="form-control" id="exampleInputName" name='Name' placeholder="Nome"
@@ -189,11 +324,10 @@
             </div>
         </div>
     </div>
-
 </section>
 <!--*****FOOTER******-->
-<footer class="p-3 mb-2 bg-dark">
-    <div class="container">
+<footer class="p-3 bg-dark">
+    <div class="container-fluid">
         <div class="row foot">
             <div class="col-xs-12 col-sm-12 icons">
                 <a href="https://www.tripadvisor.com" target="_blank"><i class="fab fa-tripadvisor alignment"></i></a>
@@ -212,7 +346,7 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" style='text-align: right;' aria-label="Close">
                     <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Contact Form</h4>
+                <h4 class="modal-title">Invio Contatti</h4>
             </div>
             <div class="modal-body">
                 <p class='header'> Relativamente a questo contatto.</p>
