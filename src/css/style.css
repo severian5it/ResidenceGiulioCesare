@@ -163,11 +163,6 @@ a {
     text-align: center;
     color: white;
     font-size: 30px;
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    height: 30%;
-    width: 60%;
     text-shadow: #000 1px 0 10px;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -179,12 +174,7 @@ a {
 #about-residence h2 {
     text-align: center;
     color: white;
-    position: absolute;
-    font-size: 11px;
-    top: 42%;
-    left: 20%;
-    height: 30%;
-    width: 60%;
+    font-size: 10px;
     text-shadow: #000 1px 0 10px;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -211,7 +201,7 @@ residence-name {
 #attractions h3, h4 {
   font-family: 'Tangerine', serif;
   font-size: 30px;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 2px 2px 2px #aaa;
 }
 
 #attractions .card{
@@ -422,7 +412,7 @@ img.hover-shadow {
 #where h3 {
   font-family: 'Tangerine', serif;
   font-size: 30px;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 2px 2px 2px #aaa;
 }
 
 #where .card {
@@ -493,7 +483,7 @@ img.hover-shadow {
 #carousel h3 {
   font-family: 'Tangerine', serif;
   font-size: 30px;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 2px 2px 2px #aaa;
 }
 
 #carousel h4 {
@@ -507,7 +497,6 @@ img.hover-shadow {
     background-attachment: fixed;
     background-image: url('../images/contact-resize.jpg');
     width: 100vw;
-    height: 80vh;
     background-position: left;
     background-size: cover;
     padding-top: 0px;
@@ -517,7 +506,7 @@ img.hover-shadow {
 }
 
 #contact .col-sm-6 p {
-    padding: 5px;
+    padding: 15px;
     margin: 0;
     background-color: #fafafa;
     font-size: 20px;
