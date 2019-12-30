@@ -9,7 +9,7 @@
 
 
 
-![Home page](src/images/landing-resize.jpg)
+![Home page](src/images/landing-stpeter.jpg)
 
 ## Table of Contents
 1. [UX](#ux)
@@ -25,6 +25,7 @@
         - [Landing](#Landing-Page)
         - [Location](#Location)
         - [Carousel](#Room-Carousel)
+        - [Attractions](#Attractions)
         - [Contact](#Contact-Form)
         - [Footer](#Footer)
         - [Alternate Language](#Alternate-Language-Version)
@@ -55,6 +56,7 @@
 My project is about a fictional Residence in Rome, in proximity with the Vatican. 
 User navigating to the site will be exposed to the following information:
 * Residence Location
+* a list of attractions located nearby, with brief description.
 * a view of the rooms, with Link to Instagram Account
 * a form to get in contact with the residence to book their accomodation
  
@@ -74,6 +76,7 @@ of the season; then the site is targeting in particular:
 
 ### Visitors to this website are searching for:
 * Location of the residence.
+* List of tourist attractions in proximity.
 * Contact.
 * Pictures of the rooms.
 * Links to related Social Networks.
@@ -90,6 +93,7 @@ The goal was to make a strong first impact with the landing page, and therefore 
 * Picture landing page, for striking ﬁrst impression.
 * A Carousel with photos showing the look and feel of the Rooms.
 * A Section showing the location and address
+* A Section showing pictures of closest interest point.
 * A Section with a contact form for enquiries and bookings.
 * A navigation bar and a footer
 
@@ -110,6 +114,8 @@ be usable on any of these devices.
 
 1. To easily locate it in the city of Rome.
 
+1. To know which tourist attractions are close to it.
+
 1. Plenty of high quality images of the Rooms where I can spend my vacation.
 
 1. To be able to get in contact to the management in a quick and easy way.
@@ -117,7 +123,10 @@ be usable on any of these devices.
 
 ### Wireframes
 
-Wireframe mockup, created using [Balsamiq](https://balsamiq.com/), is available [here](wireframes/Wireframe.pdf)
+Wireframe mockups, created using [Balsamiq](https://balsamiq.com/), is available in diffent format:
+ 1. [Laptop](wireframes/Wireframe-Laptop.pdf)
+ 1. [Tablet](wireframes/Wireframe-Tablet.pdf)
+ 1. [Mobile](wireframes/Wireframe-Mobile.pdf)
  
 
 # Features
@@ -131,10 +140,14 @@ A responsive navigation bar with national flag on the top left. For mobile-sized
 the top-right expands a menu with links to the different section on the website. On larger devices the expanded menu 
 is shown instead. Navigation bar will be static on the top of the page.
 ### Landing Page
-Landing Page presents a picture taken in the proximity of the residence, along with a presentation heading.
+Landing Page presents a picture taken in the proximity of the residence, along with a presentation heading, that 
+makes us of transformations to ease-in. The picture is different on different devices, and it's scaled by media queries.
 ### Location
 A dedicated section for location has been designed, containing an *iframe* from google maps 
 and a card with the address.
+### Attractions
+A dedicated section for close attractions has been designed, containing 4 responsive *cards*. Clicking on each of them,
+a Modal gallery is openend, with possibilites to know more about each point of interest.
 ### Room Carousel
 A carousel sliding through three images of the residence has been framed in a dedicate section. Naviagation is possible
 via indicators or via control.
@@ -150,6 +163,7 @@ This page includes a form with 4 required fields:
 Controls have been implemented to avoid leaving the fields empty or to submit invalid mail addresses.
 Once the form has been validated, a *modal* window will appear, informing the user that the data won't be 
 actually submitted.
+The picture in background is different on different devices, and it's scaled by media queries
 
 ### Footer
 
@@ -175,7 +189,6 @@ Shades of Blue and Grey have been used to convey a professional and stable image
 From Google Fonts has been used *Tangerine* font; for the rest of the Headings *Nobile* standard font has been used.
 
 ## Features for future releases
-- A Section serving a series of card showing the attractions in proximity of the Residence.
 - A Section showing favourable user comments.
 
 # Technologies Used
@@ -234,6 +247,7 @@ of the slides.
     3. Trying to submit the form with an invalid email address and verify that a relevant error message appears
     4. Trying to submit the form with all inputs valid and verify that the modal will appear.
 
+1. Gallery to showcase the closest point of interest.
 
 Bugs: most relevant bugs to tackle involved *bootstrap4 carousel* which arrows indicators
 pushed navigation to the top of the section, but changing the `data-target` field solved it.
@@ -271,11 +285,17 @@ the dependency are managed by the file `index.php`, which is necessary.
 
 
 ## Media
-- The photos used in the landing page was downloaded from [Unsplash](https://unsplash.com/), and credit goes to 
-*Christopher Czermak* @czermak_photography.
-- The photos used in the landing page was downloaded from [Unsplash](https://unsplash.com/), and credit goes to 
+- The photos used in the Landing section was downloaded from [Unsplash](https://unsplash.com/), and credit goes to 
+to *Xavier Coiffic*.
+- The photos used in the Contact section was downloaded from [Unsplash](https://unsplash.com/), and credit goes to 
 *Cristina Gottardi*.
-Photo by Cezar Sampaio on Unsplash
+- The photos used for *Vatican museum* in the Attractions section was downloaded from [Unsplash](https://unsplash.com/), 
+and credit goes to *Cezar Sampaio*.
+- The photos used for *Vatican* in the Attractions section was downloaded from [Unsplash](https://unsplash.com/), 
+and credit goes to *Nils Huber*.
+
+- The photos used for *Angel Castle* in the Attractions section was downloaded from [Unsplash](https://unsplash.com/), 
+and credit goes to *Michele Bitetto*.
 ## Acknowledgements
 
 - I received inspiration for this project from my mentor, *Aaron Sinnot*.
