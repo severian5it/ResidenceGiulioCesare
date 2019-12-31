@@ -133,7 +133,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="image card-img-top">
-                        <img src="src/images/angel.jpg" height=200 width=200 onclick="openModal();currentSlide(1)"
+                        <img src="src/images/angel.jpg" height=200 width=200 onclick="openGalleryModal();currentSlide(1)"
                              alt="Castel St.Angelo">
                     </div>
                     <div class="card-body">
@@ -144,7 +144,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="image card-img-top">
-                        <img src="src/images/vatican.jpg" height=200 width=200 onclick="openModal();currentSlide(2)"
+                        <img src="src/images/vatican.jpg" height=200 width=200 onclick="openGalleryModal();currentSlide(2)"
                              alt="Borgo Pio">
                     </div>
                     <div class="card-body">
@@ -159,7 +159,7 @@
                 <div class="card">
                     <div class="image card-img-top">
                         <img src="src/images/vaticanspiral.jpg" height=200 width=200
-                             onclick="openModal();currentSlide(3)"
+                             onclick="openGalleryModal();currentSlide(3)"
                              alt="Vatican Museum">
                     </div>
                     <div class="card-body">
@@ -170,7 +170,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="image card-img-top">
-                        <img src="src/images/peter.jpg" height=200 width=200 onclick="openModal();currentSlide(4)"
+                        <img src="src/images/peter.jpg" height=200 width=200 onclick="openGalleryModal();currentSlide(4)"
                              alt="St. Peter">
                     </div>
                     <div class="card-body">
@@ -184,7 +184,7 @@
 
 <!--*****ATTRACTIONS GALLERY MODAL*****-->
 <div id="galleryModal" class="modal">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <span class="close cursor" onclick="closeGalleryModal()">&times;</span>
     <div class="modal-content">
 
         <div class="gallerySlides">
@@ -351,29 +351,6 @@
     </div>
 </section>
 
-<!-- *******CONTACT FORM MODAL******* -->
-<div class="modal fade" tabindex="-1" role="dialog" id='contactFormModal'>
-    <br><br><br><br><br>
-    <div class="modal-dialog" role="document">
-        <br><br><br>
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" style='text-align: right;' aria-label="Close">
-                    <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Invio Contatti</h4>
-            </div>
-            <div class="modal-body">
-                <p class='header'> Relativamente a questo contatto.</p>
-                <p>Questo modulo non manda messaggi o non raccoglie informazioni personali.</p>
-
-                <div class="modal-footer">
-                    <button class='btn btn-md btn-default' data-dismiss="modal">Ho capito!</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!--*****FOOTER******-->
 <footer class="p-3 bg-dark">
     <div class="container-fluid">
@@ -398,7 +375,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-<script src="src/js/index.js"></script>
+<script src="src/js/scroll.js"></script>
+<script src="src/js/modal.js"></script>
 
 </body>
 </html>

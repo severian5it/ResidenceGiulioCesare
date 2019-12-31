@@ -1,52 +1,51 @@
-// Delayed scrolling to different sections of the page
+// Modal opening and sliding through gallery
 // Modified from a tutorial found at
-// https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2
-
-
+//https://www.w3schools.com/howto/howto_js_lightbox.asp
 $('#contact-form').on('submit', function (e) {
-    console.log('here')
+    /**
+     * show contact form modal instead of submitting data
+    */
     $('#contactFormModal').modal('show');
     e.preventDefault();
 })
 
+function openGalleryModal() {
+    /**
+     * Open Gallery Modal
+    */
+    $('#galleryModal').modal('show');
 
-$('a[href^="#"]').on('click', function (event) {
-
-    var target = $(this.getAttribute('href'));
-
-    if (target.length) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
-
-});
-
-// Open the Modal
-function openModal() {
-    document.getElementById("galleryModal").style.display = "block";
 }
 
-// Close the Modal
-function closeModal() {
-    document.getElementById("galleryModal").style.display = "none";
+function closeGalleryModal() {
+    /**
+     * close Gallery  Modal
+    */
+    $('#galleryModal').modal('hide');
+
 }
 
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
+    /**
+     * increase slides number
+    */
     showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
+    /**
+     * returning current slide
+    */
     showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
+    /**
+     * show selected slide
+    */
     var i;
     var slides = document.getElementsByClassName("gallerySlides");
     var dots = document.getElementsByClassName("gallery");
