@@ -297,14 +297,14 @@ residence-name {
 
 /* Hide the slides by default */
 
-.mySlides {
+.gallerySlides {
     display: none;
     text-align: center;
     background-color: #000;
     margin: 0;
 }
 
-.mySlides img {
+.gallerySlides img {
     height: 400px;
     width: 400px;
 }
@@ -373,12 +373,12 @@ residence-name {
     color: white;
 }
 
-img.demo {
+img.gallery {
     opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.gallery:hover {
     opacity: 1;
 }
 
