@@ -510,6 +510,11 @@ img.hover-shadow {
   text-shadow: 2px 2px 2px #aaa;
 }
 
+.fa-instagram {
+    font-size:48px;
+    color:red
+}
+
 /*-------CONTACT-----------*/
 
 #contact {
@@ -546,6 +551,10 @@ img.hover-shadow {
 
 .contact {
     margin: 15px 0px 15px 0px;
+}
+
+.modal-header .close {
+    text-align: right;
 }
 
 /*-----------FOOTER----------*/
