@@ -256,8 +256,11 @@ pushed navigation to the top of the section, but changing the `data-target` fiel
 Other issues involved the JavaScript-powered scrolling which at some point was not adapting 
 to new component added, and this meant refactoring from the original version.
 
-Moreover Navigation with key was not enabled by default on galley modals, so I had to write a jQuery function 
+Navigation with key was not enabled by default on galley modals, so I had to write a jQuery function 
 on my own.
+
+A Bug I wasn't able to reproduce was the scrollbar at the bottom that was appearing on some laptop; despite 
+my effort it never showed up during my testing.
 
 # Deployment
 
@@ -273,13 +276,22 @@ is possible to run it locally running a python server on the same location on in
 python -m SimpleHTTPServer
 ```
 ## heroku deployment
-Code can be deployed to heroku with following instructions:
+Code was deployed to heroku which features a full integration with git with the following commands.
+First with heroku create CLI command, that  creates a new empty application on Heroku, 
+along with an associated empty Git repository
 ```shell
 heroku apps:create milestone1-pierluca
+```
+then, every time the local development was satisfying, the local branch good be pushed to heroku
+with following instruction:
+```shell
 git push heroku master
 ```
-first line will create the application, second line will push the current commit to heroku; no variable must be set, all
-the dependency are managed by the file `index.php`, which is necessary.
+no variable must be set, all the dependency are managed by the file `index.php`, which presence is mandatory
+, and must containg entry point for the application, as below:
+```php
+<?php header( 'Location: /index.html' ) ;  ?>
+```
 
 
 # Credits
