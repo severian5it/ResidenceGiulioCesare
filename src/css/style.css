@@ -299,21 +299,7 @@ residence-name {
 }
 
 
-.close {
-    color: white;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 35px;
-    font-weight: bold;
-}
 
-.close:hover,
-.close:focus {
-    color: #999;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 /*------------ATTRACTIONS MODALS----------*/
 
@@ -341,8 +327,24 @@ residence-name {
     width: 100px;
 }
 
-.prev,
-.next {
+#galleryModal .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#galleryModal .close:hover,
+#galleryModal .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#galleryModal .prev,
+#galleryModal .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -358,13 +360,13 @@ residence-name {
     -webkit-user-select: none;
 }
 
-.next {
+#galleryModal .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-.prev:hover,
-.next:hover {
+#galleryModal .prev:hover,
+#galleryModal .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
