@@ -288,6 +288,8 @@ the dependency are managed by the file `index.php`, which is necessary.
 - The structure of the project was modeled on the examples provided by the **Code Institute**, in particular on 
 [Haley Schafer Portfolio](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive)
 
+Really useful resources during development were [W3school](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/)
+
 
 ## Media
 - The photos used in the Landing section was downloaded from [Unsplash](https://unsplash.com/), and credit goes to 
