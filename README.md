@@ -57,10 +57,10 @@
 
 My project is about a fictional Residence in Rome, in proximity with the Vatican. 
 User navigating to the site will be exposed to the following information:
-* Residence Location
-* a list of attractions located nearby, with brief description.
-* a view of the rooms, with Link to Instagram Account
-* a form to get in contact with the residence to book their accomodation
+* Residence Location.
+* A list of attractions located nearby, with brief description.
+* A view of the rooms, with Link to Instagram Account
+* A form to get in contact with the residence to book their accomodation
  
 # UX
 
@@ -74,7 +74,7 @@ of the season; then the site is targeting in particular:
 * People without means of transportation.
 * High-Spending segment, because it's located in a central and expensive neighbourhood.
 * Returning clients, who wants to keep contact.
-* Tourist that would like to enrich their experience with guided tours
+* Tourist that would like to enrich their experience with guided tours.
 
 ### Visitors to this website are searching for:
 * Location of the residence.
@@ -88,7 +88,7 @@ of the season; then the site is targeting in particular:
 
 People looking for an accommodation in their selected destination need to make an informed decision and they are usually
 relying on a website with full visual and geo-localized content. 
-The site is presenting them in a concise and easy-to-use way everything they need to know.
+The site is presenting them, in a concise and easy-to-use way, everything they need to know.
 
 The goal was to make a strong first impact with the landing page, and therefore serve the most relevant information.
 
@@ -149,7 +149,7 @@ A dedicated section for location has been designed, containing an *iframe* from 
 and a card with the address.
 ### Attractions
 A dedicated section for close attractions has been designed, containing 4 responsive *cards*. Clicking on each of them,
-a Modal gallery is openend, with possibilites to know more about each point of interest.
+a Modal gallery is openened, with possibilites to know more about each point of interest.
 ### Room Carousel
 A carousel sliding through three images of the residence has been framed in a dedicate section. Naviagation is possible
 via indicators or via control.
@@ -165,7 +165,7 @@ This page includes a form with 4 required fields:
 Controls have been implemented to avoid leaving the fields empty or to submit invalid mail addresses.
 Once the form has been validated, a *modal* window will appear, informing the user that the data won't be 
 actually submitted.
-The picture in background is different on different devices, and it's scaled by media queries
+The picture in background is different on different devices, and it's scaled by media queries.
 
 ### Footer
 
@@ -259,8 +259,8 @@ to new component added, and this meant refactoring from the original version.
 Navigation with key was not enabled by default on galley modals, so I had to write a jQuery function 
 on my own.
 
-A Bug I wasn't able to reproduce was the scrollbar at the bottom that was appearing on some laptop; despite 
-my effort it never showed up during my testing.
+A Bug I wasn't able to reproduce was the scrollbar at the bottom that was appearing on the laptop of my mentor; despite 
+my effort it never showed up during my testing to me or to other testers.
 
 # Deployment
 
@@ -276,19 +276,19 @@ is possible to run it locally running a python server on the same location on in
 python -m SimpleHTTPServer
 ```
 ## heroku deployment
-Code was deployed to heroku which features a full integration with git with the following commands.
-First with heroku create CLI command, that  creates a new empty application on Heroku, 
-along with an associated empty Git repository
+Code was deployed to heroku which features a full integration with git with the following instructions.
+First use heroku create CLI command, which  instantiates a new empty application on Heroku, 
+along with an associated empty Git repository.
 ```shell
 heroku apps:create milestone1-pierluca
 ```
-then, every time the local development was satisfying, the local branch good be pushed to heroku
+then, every time the local development was satisfying, the local branch can be pushed in production
 with following instruction:
 ```shell
 git push heroku master
 ```
 no variable must be set, all the dependency are managed by the file `index.php`, which presence is mandatory
-, and must containg entry point for the application, as below:
+, and must contains at least the entry point for the application, as below:
 ```php
 <?php header( 'Location: /index.html' ) ;  ?>
 ```
@@ -300,7 +300,7 @@ no variable must be set, all the dependency are managed by the file `index.php`,
 - The structure of the project was modeled on the examples provided by the **Code Institute**, in particular on 
 [Haley Schafer Portfolio](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive)
 
-Really useful resources during development were [W3school](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/)
+Really useful resources during development were [W3school](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/).
 
 
 ## Media
@@ -317,7 +317,7 @@ and credit goes to *Nils Huber*.
 and credit goes to *Michele Bitetto*.
 ## Acknowledgements
 
-- I received inspiration for this project from my mentor, *Aaron Sinnot*.
+- I received inspiration and guidance for this project from my mentor, *Aaron Sinnot*.
 
 # Contact
 To contact me feel free to email
