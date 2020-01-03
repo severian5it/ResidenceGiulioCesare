@@ -66,3 +66,16 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
     captionText.innerHTML = dots[slideIndex - 1].alt;
 }
+
+$(document).keydown(function (e) {
+  /**
+   * allowing key navigation within modal
+  */
+  if (event.keyCode == 37) {
+      console.log('left')
+    $('.prev').click(); //on left arrow, click next (since your next is on the left)
+  } else if (event.keyCode == 39) {
+      console.log('right')
+    $('.next').click(); //on right arrow, click prev
+  }
+});

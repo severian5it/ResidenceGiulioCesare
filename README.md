@@ -256,6 +256,9 @@ pushed navigation to the top of the section, but changing the `data-target` fiel
 Other issues involved the JavaScript-powered scrolling which at some point was not adapting 
 to new component added, and this meant refactoring from the original version.
 
+Moreover Navigation with key was not enabled by default on galley modals, so I had to write a jQuery function 
+on my own.
+
 # Deployment
 
 Site has been developed on PyCharm and pushed to GitHub via terminal commands.
@@ -305,6 +308,6 @@ and credit goes to *Michele Bitetto*.
 # Contact
 To contact me feel free to email
 
- `pdelbuono (at) gmail (dot) com`
+ `pdelbuono@gmail.com`
 
 
